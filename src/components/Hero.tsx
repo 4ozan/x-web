@@ -1,7 +1,7 @@
 export function Hero ()  {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-[70vh] text-white overflow-hidden pt-12">
-      <h1 className="font-twitter-chirp text-5xl md:text-6xl font-bold text-center mb-4">Where Millisecond<br/>Means Revenue</h1>
+      <h1 className="text-5xl font-extrabold md:text-6xl text-center mb-4">Where Millisecond<br/>Means Revenue</h1>
       <p className="font-twitter-chirp text-base max-w-xl mb-8 opacity-80 text-center font-normal">
         DELIVER FAST DIGITAL EXPERIENCES BY OPTIMIZING HOW YOUR DATA MOVES ACROSS THE WEB.
       </p>

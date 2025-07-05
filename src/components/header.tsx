@@ -2,21 +2,27 @@ import { HeaderBase } from './Header-base'
 
 export function Header (){
     const leftContent = (
-        <p>Acura</p>
+       <h4 className='font-mono'>AURA</h4>
     )
 
    const rightContent = (
     <nav className='flex gap-3 justify-center items-center font-inter'>
-     <h2>Discover </h2>
-     <h2>Carrers</h2>
-     <h2>Manifesto</h2>
+     <ul className='flex gap-3 font-mono'>
+      <li>DISCOVER</li>
+      <li>CAREERS</li>
+      <li>MANIFESTO</li>
+      </ul>
+    
+
     </nav>
       
 
     )
      
   return (
-    <HeaderBase leftContent={leftContent}
+    
+       <HeaderBase leftContent={leftContent}
     rightContent={rightContent} />
+   
   )
 }
